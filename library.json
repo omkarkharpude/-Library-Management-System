@@ -1,0 +1,64 @@
+{
+    "books": [
+        {
+            "id": "B-S2VSA",
+            "title": "goat",
+            "author": "omaa",
+            "total_copies": 23,
+            "available_copies": 22,
+            "added_on": "2026-09-28 16:18:57"
+        },
+        {
+            "id": "B-8VVLU",
+            "title": "pubg",
+            "author": "kanha",
+            "total_copies": 45,
+            "available_copies": 44,
+            "added_on": "2026-09-28 16:19:09"
+        },
+        {
+            "id": "B-JA51I",
+            "title": "kubert",
+            "author": "gopal",
+            "total_copies": 5,
+            "available_copies": 3,
+            "added_on": "2026-09-28 17:02:41"
+        }
+    ],
+    "members": [
+        {
+            "id": "M-JVHD2",
+            "name": "ram",
+            "email": "ram@official",
+            "borrowed": [
+                {
+                    "book_id": "B-8VVLU",
+                    "title": "pubg",
+                    "borrow_on": "2026-09-28 16:27:36"
+                },
+                {
+                    "book_id": "B-S2VSA",
+                    "title": "goat",
+                    "borrow_on": "2026-09-28 18:54:56"
+                },
+                {
+                    "book_id": "B-JA51I",
+                    "title": "kubert",
+                    "borrow_on": "2026-09-28 18:54:58"
+                }
+            ]
+        },
+        {
+            "id": "M-PYAIJ",
+            "name": "raj",
+            "email": "raj@gmail",
+            "borrowed": [
+                {
+                    "book_id": "B-JA51I",
+                    "title": "kubert",
+                    "borrow_on": "2026-09-28 23:25:58"
+                }
+            ]
+        }
+    ]
+}
