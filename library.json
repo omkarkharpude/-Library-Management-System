@@ -13,7 +13,7 @@
             "title": "pubg",
             "author": "kanha",
             "total_copies": 45,
-            "available_copies": 44,
+            "available_copies": 45,
             "added_on": "2026-09-28 16:19:09"
         },
         {
@@ -21,7 +21,7 @@
             "title": "kubert",
             "author": "gopal",
             "total_copies": 5,
-            "available_copies": 3,
+            "available_copies": 2,
             "added_on": "2026-09-28 17:02:41"
         }
     ],
@@ -32,19 +32,16 @@
             "email": "ram@official",
             "borrowed": [
                 {
-                    "book_id": "B-8VVLU",
-                    "title": "pubg",
-                    "borrow_on": "2026-09-28 16:27:36"
-                },
-                {
                     "book_id": "B-S2VSA",
                     "title": "goat",
-                    "borrow_on": "2026-09-28 18:54:56"
+                    "borrow_on": "2026-09-28 18:54:56",
+                    "due_date": "2026-10-05 18:54:56"
                 },
                 {
                     "book_id": "B-JA51I",
                     "title": "kubert",
-                    "borrow_on": "2026-09-28 18:54:58"
+                    "borrow_on": "2026-09-28 18:54:58",
+                    "due_date": "2026-10-05 18:54:58"
                 }
             ]
         },
@@ -56,9 +53,51 @@
                 {
                     "book_id": "B-JA51I",
                     "title": "kubert",
-                    "borrow_on": "2026-09-28 23:25:58"
+                    "borrow_on": "2026-09-28 23:25:58",
+                    "due_date": "2026-10-05 23:25:58"
                 }
             ]
+        },
+        {
+            "id": "M-LYVJR",
+            "name": "mau",
+            "email": "mau@mail.com",
+            "borrowed": []
+        },
+        {
+            "id": "M-B8J1Z",
+            "name": "mahesh",
+            "email": "mahesh@gmail.com",
+            "borrowed": [
+                {
+                    "book_id": "B-JA51I",
+                    "title": "kubert",
+                    "borrow_on": "2026-09-29 17:48:12",
+                    "due_date": "2026-10-10 17:48:12"
+                }
+            ]
+        }
+    ],
+    "transactions": [
+        {
+            "id": "T-VE0DY",
+            "action": "Return",
+            "member_id": "M-JVHD2",
+            "member_name": "ram",
+            "book_id": "B-8VVLU",
+            "book_title": "pubg",
+            "timestamp": "2026-09-29 17:47:36",
+            "details": "Borrowed on 2026-09-28 16:27:36 and due on 2026-10-05 16:27:36"
+        },
+        {
+            "id": "T-UFGOZ",
+            "action": "Borrow",
+            "member_id": "M-B8J1Z",
+            "member_name": "mahesh",
+            "book_id": "B-JA51I",
+            "book_title": "kubert",
+            "timestamp": "2026-09-29 17:48:12",
+            "details": "Due on 2026-10-10 17:48:12"
         }
     ]
 }
